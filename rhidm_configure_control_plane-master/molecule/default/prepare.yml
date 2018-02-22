@@ -1,0 +1,7 @@
+---
+- name: Prepare
+  hosts: all
+  gather_facts: False
+  tasks:
+  - name: install sudo
+    raw: test -e /bin/sudo || (yum install sudo -y)
