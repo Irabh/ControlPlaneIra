@@ -1,3 +1,4 @@
+roles
 default/secrets.yml
 vars/secrets.yml
 molecule/default/.molecule
